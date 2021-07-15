@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- arquivos owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+
+            <div class="secondary-menu">
+                <div class="element">
+                    <div class="pesquisa">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+
+                <div class="element">
+                    <a href="#">INFANTIL</a>
+                </div>
+
+                <div class="element">
+                    <div class="notificacao">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                </div>
+
+                <div class="element">
+                    <div class="acount">
+                        <a href="#" role="button">
+                            <img class="icone" src="img/user.png" alt="">
+                        </a>
+                        <span>
+
+                            <span class="seta">
+                                <i class="fas fa-sort-down"></i>
+                            </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">FALCÃO E O SOLDADO INVERNAL</h3>
+                <p class="descricao">Após os eventos de "Vingadores: Ultimato", Sam Wilson/Falcão e Bucky Barnes/Soldado
+                    Invernal se unem em uma aventura que testa suas habilidades - e a paciência.</p>
+
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=QJh49Yunotg" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            Assista agora
+                        </button></a>
+
+                    <!-- Botão informação-->
+                    <a href="#abrirModal" class="info">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            Mais informações
+                        </button></a>
+                    <div id="abrirModal" class="modal">
+                        <a href="#close" title="close" class="close">X</a>
+                        <h2>FALCÃO E O SOLDADO INVERNAL</h2>
+                        <p>Falcão e o Soldado Invernal é a mais recente série original da Disney+ ambientada no MCU, e
+                            estrelada por dois dos mais populares heróis aliados do Capitão América, tendo que lidar com
+                            sua ausência e as consequências ao mundo depois do "blip".</p>
+                        <p class="atores">Atores: Sebastian Stan, Anthony Mackie, Wyatt Russell, Erin Kellyman, Danny
+                            Ramirez,
+                            Georges St. Pierre.</p>
+
+                        <!-- botão "assista agora dentro do pop-up"-->
+                        <a href="https://www.youtube.com/watch?v=QJh49Yunotg" target="_blank">
+                            <button role="button" class="botao"
+                                style="background-color: white; color: #000; margin-left: 10px; margin-bottom: 10px; width: auto;">
+                                <i class="fas fa-play"></i>
+                                Assista agora
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- carrossel-->
+    <div class="carousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- script para usar os simbolos play e info-->
+    <script src="https://kit.fontawesome.com/7add1b2c98.js" crossorigin="anonymous"></script>
+
+    <!-- script para usar o carrossel-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
+</body>
+
+</html>
